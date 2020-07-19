@@ -1,0 +1,42 @@
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.addItemRow {
+    margin: 10px 35%;
+}
+
+
+#shoppingList {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.item {
+    border: 1px gray solid;
+    margin: 5px 35%;
+    padding: 0px 0px 10px 10px;
+    color: gray;
+}
+
+.checkButton, .deleteButton {
+    background-color: #4ed15d;
+    color: #FFFFFF;
+    border: none;
+    padding: 4px 8px;
+}
+
+.deleteButton {
+    background-color: #ea3b35;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
